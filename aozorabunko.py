@@ -4,7 +4,7 @@ from unidecode import unidecode
 from slugify import slugify
 import yaml
 import uuid
-from typing import Optional, Dict, Any, List, Tuple, Union
+from typing import Optional, Dict,  List, Tuple, Union
 
 def generate_unique_slug(title: str) -> str:
     """
@@ -25,7 +25,15 @@ def extract_frontmatter(content: str) -> Optional[Tuple[str, str, str, str]]:
     match = re.match(r'^(---\s*\n)([\s\S]+?\n)(---\s*\n)([\s\S]*)', content)
     if not match:
         return None
-    return match.groups()
+    
+    front_start, front_content, front_end, body = match.groups()
+    # match.groups() は正規表現上、必ず4つのキャプチャを得る想定のため、
+    # ここでNoneになり得ないことを保証できる。型チェッカーへは明示的に型を示すことも可能。
+    assert front_start is not None
+    assert front_content is not None
+    assert front_end is not None
+    assert body is not None
+    return (front_start, front_content, front_end, body)
 
 def insert_slug_line(front_content: str, slug: str) -> str:
     """
@@ -116,16 +124,43 @@ def process_markdown_files(target_dir: str) -> Tuple[Dict[str, List[Tuple[str, s
 
     return author_works, failed_files
 
+def get_existing_author_slug(author_file: str) -> Optional[str]:
+    """
+    既存の著者ページファイルからslugを取得する。
+    なければNoneを返す。
+    """
+    if not os.path.exists(author_file):
+        return None
+    with open(author_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    frontmatter_parts = extract_frontmatter(content)
+    if frontmatter_parts is None:
+        return None
+    _, front_content, _, _ = frontmatter_parts
+    metadata = yaml.safe_load(front_content)
+    if not isinstance(metadata, dict):
+        return None
+    return metadata.get('slug')
+
 def create_author_pages(target_dir: str, author_works: Dict[str, List[Tuple[str, str]]]) -> None:
     """
     著者ごとに作品一覧Markdownを生成する。
     """
     for author, works in author_works.items():
         author_file = os.path.join(target_dir, author, f"{author}.md")
-        author_slug = generate_unique_slug(author)
-        author_frontmatter = f"---\ntitle: {author}\nslug: {author_slug}\n---\n"
+        # 既存slug取得
+        existing_slug = get_existing_author_slug(author_file)
+        if existing_slug is None:
+            # 新規生成
+            author_slug = generate_unique_slug(author)
+        else:
+            author_slug = existing_slug
 
-        lines = [author_frontmatter, f"# {author}の作品一覧\n"]
+        # 作品をタイトル順でソート
+        works.sort(key=lambda x: x[0])
+
+        author_frontmatter = f"---\ntitle: {author}\nslug: {author_slug}\n---\n"
+        lines = [author_frontmatter, f"## {author}の作品一覧\n"]
         for w_title, w_slug in works:
             lines.append(f"- [{w_title}]({w_slug})")
 
