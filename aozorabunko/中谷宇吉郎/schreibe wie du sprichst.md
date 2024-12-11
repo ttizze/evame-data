@@ -1,5 +1,6 @@
 ---
 title: Schreibe wie du sprichst
+slug: schreibewiedusprichstdd
 id: 059570
 author: 中谷 宇吉郎
 tags: ["914"]

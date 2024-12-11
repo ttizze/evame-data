@@ -1,5 +1,6 @@
 ---
 title: Afterlife
+slug: afterlifeb4
 id: 060574
 author: 大久保 ゆう
 tags: ["914"]

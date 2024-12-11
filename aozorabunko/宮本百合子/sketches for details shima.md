@@ -1,5 +1,6 @@
 ---
 title: Sketches for details Shima
+slug: sketchesfordetailsshima3d
 id: 004222
 author: 宮本 百合子
 tags: ["914"]

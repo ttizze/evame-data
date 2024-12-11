@@ -1,5 +1,6 @@
 ---
 title: レーリー卿（Lord Rayleigh）
+slug: reriqinglordrayleigh62
 id: 043083
 author: 寺田 寅彦
 tags: ["289"]

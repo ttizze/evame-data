@@ -1,5 +1,6 @@
 ---
 title: AU RIMBAUD
+slug: aurimbaud60
 id: 055465
 author: 富永 太郎
 tags: ["951"]

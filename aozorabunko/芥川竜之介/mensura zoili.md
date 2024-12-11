@@ -1,5 +1,6 @@
 ---
 title: Mensura Zoili
+slug: mensurazoili1c
 id: 000097
 author: 芥川 竜之介
 tags: ["913"]

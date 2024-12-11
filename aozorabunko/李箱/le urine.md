@@ -1,5 +1,6 @@
 ---
 title: LE URINE
+slug: leurine6f
 id: 053692
 author: 李 箱
 tags: ["911"]

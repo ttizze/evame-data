@@ -1,5 +1,6 @@
 ---
 title: I can speak
+slug: icanspeak46
 id: 001572
 author: 太宰 治
 tags: ["913"]

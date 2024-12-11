@@ -1,5 +1,6 @@
 ---
 title: COLLOQUE MOQUEUR
+slug: colloquemoqueur46
 id: 055463
 author: 富永 太郎
 tags: ["911"]

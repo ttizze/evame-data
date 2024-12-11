@@ -1,5 +1,6 @@
 ---
 title: 公開書架（Open-shelf-system）につきて
+slug: gongkaishujiaopenshelfsystemnitsukite1c
 id: 046210
 author: 佐野 友三郎
 tags: ["016"]

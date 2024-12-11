@@ -1,5 +1,6 @@
 ---
 title: 厄年と etc.
+slug: eniantoetc7f
 id: 004435
 author: 寺田 寅彦
 tags: ["914"]

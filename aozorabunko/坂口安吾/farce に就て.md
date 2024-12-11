@@ -1,5 +1,6 @@
 ---
 title: FARCE に就て
+slug: farcenijiute1c
 id: 045801
 author: 坂口 安吾
 tags: ["901","914"]

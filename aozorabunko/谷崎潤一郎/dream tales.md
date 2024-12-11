@@ -1,5 +1,6 @@
 ---
 title: Dream Tales
+slug: dreamtalesa9
 id: 060080
 author: 谷崎 潤一郎
 tags: ["913"]

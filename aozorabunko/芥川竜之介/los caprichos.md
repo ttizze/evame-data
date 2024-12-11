@@ -1,5 +1,6 @@
 ---
 title: LOS CAPRICHOS
+slug: loscaprichoscf
 id: 000094
 author: 芥川 竜之介
 tags: ["913"]

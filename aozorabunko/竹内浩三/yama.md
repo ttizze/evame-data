@@ -1,5 +1,6 @@
 ---
 title: YAMA
+slug: yamabf
 id: 054811
 author: 竹内 浩三
 tags: ["911"]

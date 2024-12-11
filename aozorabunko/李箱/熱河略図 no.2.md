@@ -1,5 +1,6 @@
 ---
 title: 熱河略図 No.2
+slug: reheluetuno2ae
 id: 053722
 author: 李 箱
 tags: ["911"]

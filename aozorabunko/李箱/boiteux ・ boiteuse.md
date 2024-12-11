@@ -1,5 +1,6 @@
 ---
 title: BOITEUX ・ BOITEUSE
+slug: boiteuxboiteusefb
 id: 053691
 author: 李 箱
 tags: ["911"]

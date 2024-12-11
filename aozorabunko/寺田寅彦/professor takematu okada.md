@@ -1,5 +1,6 @@
 ---
 title: PROFESSOR TAKEMATU OKADA
+slug: professortakematuokadac4
 id: 043534
 author: 寺田 寅彦
 tags: ["289","451"]

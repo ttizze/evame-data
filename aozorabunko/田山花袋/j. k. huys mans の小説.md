@@ -1,5 +1,6 @@
 ---
 title: J. K. Huys Mans の小説
+slug: jkhuysmansnoxiaoshuo62
 id: 048804
 author: 田山 花袋
 tags: ["950"]

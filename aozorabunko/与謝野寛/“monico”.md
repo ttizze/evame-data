@@ -1,5 +1,6 @@
 ---
 title: “MONICO”
+slug: monicoe7
 id: 002568
 author: 与謝野 寛
 tags: ["911"]

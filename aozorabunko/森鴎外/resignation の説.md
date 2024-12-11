@@ -1,5 +1,6 @@
 ---
 title: Resignation の説
+slug: resignationnoshuo3e
 id: 045272
 author: 森 鴎外
 tags: ["914"]

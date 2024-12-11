@@ -1,5 +1,6 @@
 ---
 title: An Incident
+slug: anincident55
 id: 004490
 author: 有島 武郎
 tags: ["913"]

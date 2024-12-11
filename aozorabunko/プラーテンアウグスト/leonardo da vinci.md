@@ -1,5 +1,6 @@
 ---
 title: LEONARDO DA VINCI
+slug: leonardodavincia9
 id: 055213
 author: プラーテン アウグスト
 tags: ["941"]

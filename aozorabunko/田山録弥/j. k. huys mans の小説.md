@@ -1,5 +1,6 @@
 ---
 title: J. K. Huys Mans の小説
+slug: jkhuysmansnoxiaoshuo35
 id: 048804
 author: 田山 録弥
 tags: ["950"]

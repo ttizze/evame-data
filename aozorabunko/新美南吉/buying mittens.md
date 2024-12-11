@@ -1,5 +1,6 @@
 ---
 title: Buying Mittens
+slug: buyingmittens13
 id: 060573
 author: 新美 南吉
 tags: ["K913"]

@@ -1,5 +1,6 @@
 ---
 title: Buying Mittens
+slug: buyingmittensb7
 id: 060573
 author: 大久保 ゆう
 tags: ["K913"]

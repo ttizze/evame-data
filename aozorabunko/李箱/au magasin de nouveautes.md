@@ -1,5 +1,6 @@
 ---
 title: AU MAGASIN DE NOUVEAUTES
+slug: aumagasindenouveautesab
 id: 053717
 author: 李 箱
 tags: ["911"]

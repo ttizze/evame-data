@@ -1,5 +1,6 @@
 ---
 title: DILEMMA.
+slug: dilemma3a
 id: 053956
 author: 佐藤 緑葉
 tags: ["911"]

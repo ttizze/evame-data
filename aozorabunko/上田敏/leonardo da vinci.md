@@ -1,5 +1,6 @@
 ---
 title: LEONARDO DA VINCI
+slug: leonardodavinci98
 id: 055213
 author: 上田 敏
 tags: ["941"]

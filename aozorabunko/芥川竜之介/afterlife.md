@@ -1,5 +1,6 @@
 ---
 title: Afterlife
+slug: afterlifebe
 id: 060574
 author: 芥川 竜之介
 tags: ["914"]

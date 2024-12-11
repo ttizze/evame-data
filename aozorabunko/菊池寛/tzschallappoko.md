@@ -1,5 +1,6 @@
 ---
 title: TZSCHALLAPPOKO
+slug: tzschallappoko47
 id: 059353
 author: 菊池 寛
 tags: ["914"]

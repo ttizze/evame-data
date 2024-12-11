@@ -1,5 +1,6 @@
 ---
 title: Me Voilà
+slug: mevoila57
 id: 050255
 author: 中原 中也
 tags: ["914"]

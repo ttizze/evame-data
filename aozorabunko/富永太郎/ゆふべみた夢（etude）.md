@@ -1,5 +1,6 @@
 ---
 title: ゆふべみた夢（Etude）
+slug: yuhubemitamengetude7b
 id: 055495
 author: 富永 太郎
 tags: ["911"]

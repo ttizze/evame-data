@@ -1,5 +1,6 @@
 ---
 title: I Am Not A Poet, But I Am A Poet.
+slug: iamnotapoetbutiamapoetdf
 id: 052884
 author: 牧野 信一
 tags: ["913"]
