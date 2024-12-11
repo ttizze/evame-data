@@ -74,7 +74,7 @@ def update_frontmatter(file_path):
     }
 
 def main():
-    target_dir = 'aozora'
+    target_dir = 'aozorabunko'
     author_works = {}
 
     for root, dirs, files in os.walk(target_dir):
