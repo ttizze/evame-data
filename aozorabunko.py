@@ -29,8 +29,6 @@ def extract_frontmatter(content: str) -> Optional[Tuple[str, str, str, str]]:
         return None
 
     front_start, front_content, front_end, body = match.groups()
-    # match.groups() は正規表現上、必ず4つのキャプチャを得る想定のため、
-    # ここでNoneになり得ないことを保証できる。型チェッカーへは明示的に型を示すことも可能。
     assert front_start is not None
     assert front_content is not None
     assert front_end is not None
@@ -54,12 +52,6 @@ def insert_slug_line(front_content: str, slug: str) -> str:
 
 
 def update_frontmatter(file_path: str) -> Union[Dict[str, str], str]:
-    """
-    単一ファイルに対してfrontmatterを更新または検証する。
-    - frontmatterがない場合やtitleがない場合はファイルパス（str）を返す（失敗扱い）。
-    - slugが無い場合は新規生成してfrontmatterに挿入。
-    - 処理成功時は{'title': title, 'slug': slug}を返す。
-    """
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -78,32 +70,35 @@ def update_frontmatter(file_path: str) -> Union[Dict[str, str], str]:
         print(f"title not found,{file_path}")
         return file_path
 
-    author_line = ""
-    if "author" in metadata:
-        author_name = str(metadata["author"]).strip().strip("'").strip('"')
-        author_line = f"## author: {author_name}\n"
-    else:
-        print(f"author not found, {file_path}")
+    if "author" not in metadata:
+        print(f"author not found,{file_path}")
         return file_path
 
-    title = str(metadata["title"]).strip().strip("'").strip('"')
-    if "slug" in metadata:
-        # slugがある場合もauthor_lineは挿入
-        new_content = front_start + front_content + front_end + author_line + body
+    author_name = str(metadata["author"]).strip().strip("'").strip('"')
+
+    # もし既にbody内に"## author:"があれば挿入しない
+    if "## author:" not in body:
+        author_line = f"## author: {author_name}\n\n"
     else:
-        # slugがない場合は生成して挿入
+        author_line = ""
+
+    title = str(metadata["title"]).strip().strip("'").strip('"')
+
+    if "slug" in metadata:
+        # slugありの場合
+        new_content = front_start + front_content + front_end + author_line + body
+        final_slug = metadata["slug"]
+    else:
+        # slugなしの場合
         slug = generate_unique_slug(title)
         new_front_content = insert_slug_line(front_content, slug)
         new_content = front_start + new_front_content + front_end + author_line + body
+        final_slug = slug
 
     if new_content != content:
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(new_content)
 
-    # slugがあればそれを、なければ新規生成したものを返す
-    final_slug = metadata.get(
-        "slug", slug if "slug" not in metadata else metadata["slug"]
-    )
     return {"title": title, "slug": final_slug}
 
 
@@ -167,21 +162,19 @@ def get_existing_author_slug(author_file: str) -> Optional[str]:
 
 def create_author_pages(
     target_dir: str, author_works: Dict[str, List[Tuple[str, str]]]
-) -> None:
+) -> Dict[str, str]:
     """
-    著者ごとに作品一覧Markdownを生成する。
+    著者ごとに作品一覧Markdownを生成し、{著者: slug} のマッピングを返す。
     """
+    author_slug_map = {}
     for author, works in author_works.items():
         author_file = os.path.join(target_dir, author, f"{author}.md")
-        # 既存slug取得
         existing_slug = get_existing_author_slug(author_file)
         if existing_slug is None:
-            # 新規生成
             author_slug = generate_unique_slug(author)
         else:
             author_slug = existing_slug
 
-        # 作品をタイトル順でソート
         works.sort(key=lambda x: x[0])
 
         author_frontmatter = f"---\ntitle: {author}\nslug: {author_slug}\n---\n"
@@ -192,21 +185,53 @@ def create_author_pages(
         with open(author_file, "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
 
+        author_slug_map[author] = author_slug
         print(f"作者ページ生成完了: {author_file}")
+
+    return author_slug_map
+
+
+def create_authors_list_page(
+    target_dir: str,
+    author_works: Dict[str, List[Tuple[str, str]]],
+    author_slug_map: Dict[str, str],
+) -> None:
+    """
+    全著者の一覧ページauthors.mdを作成する。
+    著者名でソートして表示し、各著者ページへのリンクをslugで張る。
+    """
+    all_authors = list(author_works.keys())
+    all_authors.sort()
+
+    # authors.mdを作成
+    # slugはそれぞれのauthorごとにauthor_slug_mapから取得してリンクを張る
+    frontmatter = "---\ntitle: 著者一覧\nslug: authors-list\n---\n"
+    lines = [frontmatter, "## 著者一覧\n"]
+    for author in all_authors:
+        author_slug = author_slug_map.get(author, "")
+        # 著者ページへのリンク: slug利用
+        # slugのみがURLになる想定（静的サイト生成ツールなどを想定）
+        # 必要に応じて prefix や相対パスを調整
+        lines.append(f"- [{author}]({author_slug})")
+
+    authors_list_file = os.path.join(target_dir, "authors.md")
+    with open(authors_list_file, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+    print(f"著者一覧ページ生成完了: {authors_list_file}")
 
 
 def write_failed_files_list(failed_files: List[str], output_file: str) -> None:
     """
     処理失敗ファイルの一覧を出力ファイルに書き込む。
     """
-    # 必ずファイルを生成するように変更
     with open(output_file, "w", encoding="utf-8") as f:
         for ff in failed_files:
             f.write(ff + "\n")
 
     if failed_files:
         print(
-            f"タイトルなし、frontmatterなし等で失敗したファイル一覧を {output_file} に出力しました。"
+            f"タイトルなし、frontmatterなし、authorなし等で失敗したファイル一覧を {output_file} に出力しました。"
         )
     else:
         print("失敗ファイルはありませんでした。空のfailed_files.txtを作成しました。")
@@ -217,7 +242,10 @@ def main():
     author_works, failed_files = process_markdown_files(target_dir)
 
     # 著者ページ生成
-    create_author_pages(target_dir, author_works)
+    author_slug_map = create_author_pages(target_dir, author_works)
+
+    # 著者一覧ページ生成
+    create_authors_list_page(target_dir, author_works, author_slug_map)
 
     # 失敗ファイル出力
     write_failed_files_list(failed_files, "failed_files.txt")
