@@ -7,6 +7,8 @@ tags: ["474"]
 html_url: https://www.aozora.gr.jp/cards/002052/files/59606_67437.html
 ---
 
+## author: プリリュー エドゥアール・エルネ
+
 ［＃ページの左右中央］
 
 

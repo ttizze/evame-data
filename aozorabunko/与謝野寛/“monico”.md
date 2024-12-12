@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/000320/files/2568_8605.html
 ---
 
+## author: 与謝野 寛
+
 ｜MONICO《モニコ》 !  MONICO !｜  TR![※(アキュートアクセント付きE)](https://www.aozora.gr.jp/cards/000320/files/../../../gaiji/1-09/1-09-32.png)S《トレ》｜ JOLIIE《ジヨオリイ》 !
 
 今夜もモニコで飲み明《あか》そ。

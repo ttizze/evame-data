@@ -7,6 +7,8 @@ tags: ["951"]
 html_url: https://www.aozora.gr.jp/cards/000678/files/55465_53059.html
 ---
 
+## author: 富永 太郎
+
 #### １
 
 

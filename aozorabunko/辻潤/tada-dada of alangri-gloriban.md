@@ -7,6 +7,8 @@ tags: ["914"]
 html_url: https://www.aozora.gr.jp/cards/000159/files/857_34611.html
 ---
 
+## author: 辻 潤
+
 Ich Moi bin an Aristocratic Proletariat and an inverted Idealist who contradict himself for ever.
 
   I have just got the conviction of such an audacious fellow who can even plagiarize quite at home, and neologize quite at random like my dear grand Laurence Sterne (who is the Greatest Dadaist ever born in the world, born only too early, and lived and died miserably for the sake of his great Dada.)

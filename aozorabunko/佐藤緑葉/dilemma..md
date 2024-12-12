@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/001486/files/53956_65192.html
 ---
 
+## author: 佐藤 緑葉
+
 いらだたしき一夜、
 
 群集と巡査とは睨みあい、

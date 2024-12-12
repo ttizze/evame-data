@@ -7,6 +7,8 @@ tags: ["913"]
 html_url: https://www.aozora.gr.jp/cards/000035/files/271_15084.html
 ---
 
+## author: 太宰 治
+
 思いは、ひとつ、窓前花。
 
 

@@ -7,6 +7,8 @@ tags: ["289","420"]
 html_url: https://www.aozora.gr.jp/cards/001163/files/43657_31779.html
 ---
 
+## author: 仁科 芳雄
+
 #### §１．Bohr の地位．
 
 

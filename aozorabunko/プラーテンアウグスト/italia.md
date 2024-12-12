@@ -7,6 +7,8 @@ tags: ["941"]
 html_url: https://www.aozora.gr.jp/cards/001710/files/55214_49929.html
 ---
 
+## author: プラーテン アウグスト
+
 Konata ni wa Abruzzi no yama, kanata Pontini no numa,
 
 Geijutsu no kuni wo idete z![※(サーカムフレックスアクセント付きO小文字)](https://www.aozora.gr.jp/cards/001710/files/../../../gaiji/1-09/1-09-74.png)ka rakuyen ni iru.

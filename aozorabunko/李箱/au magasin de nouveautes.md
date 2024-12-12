@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53717_63532.html
 ---
 
+## author: 李 箱
+
 四角の中の四角の中の四角の中の四角　の中の四角。
 
 四角な円運動の四角な円運動　の　四角　な　円。

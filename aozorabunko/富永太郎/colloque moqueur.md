@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/000678/files/55463_53055.html
 ---
 
+## author: 富永 太郎
+
 立ち去つた私のマリアの記念にと
 
 友と二人アプサントを飲んだ帰るさ

@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53691_65748.html
 ---
 
+## author: 李 箱
+
 長イモノ
 
 

@@ -7,6 +7,8 @@ tags: ["914"]
 html_url: https://www.aozora.gr.jp/cards/001030/files/47952_38457.html
 ---
 
+## author: 堀 辰雄
+
 １
 
 

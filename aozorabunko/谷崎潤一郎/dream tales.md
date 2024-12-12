@@ -7,6 +7,8 @@ tags: ["913"]
 html_url: https://www.aozora.gr.jp/cards/001383/files/60080_73709.html
 ---
 
+## author: 谷崎 潤一郎
+
 ○
 
 

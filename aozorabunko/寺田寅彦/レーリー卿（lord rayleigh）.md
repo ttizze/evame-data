@@ -7,6 +7,8 @@ tags: ["289"]
 html_url: https://www.aozora.gr.jp/cards/000042/files/43083_23775.html
 ---
 
+## author: 寺田 寅彦
+
 レーリー家の祖先は一六六〇年頃エセックス（Essex）州のモルドン（Maldon）附近に若干の水車を所有して粉磨業《こなひきぎょう》を営んでいた。一七二〇年頃ターリング（Terling）に新しく住家を求め、その後 Terling Place の荘園を買った。その邸宅はもとノリッチ僧正（Bishops of Norwich）の宮殿であった。その後ヘンリー八世の所有となったこともあった。その時の当主ジョン・ストラット（John Strutt）は Maldon からの M. P. として選出された。この人の長子は早世し、次男の Joseph Halden Strutt（一七五八―一八四五）が家を継いだ。彼は陸軍大佐となり王党の国会議員となり、Duke of Leinster の娘の Lady Fitzgerald と結婚した。これがここに紹介しようとする物理学者レーリー卿の祖父である。勲功によって貴族に列せられようという内意があったが辞退したので、爵位はその夫人に授けられ、夫人からその一人息子の John James Strutt（一七九六―一八七三）に伝えられた。これが最初の Lord Rayleigh となった訳である。Rayleigh は附近の小都市の名で、口調がいいというだけの理由でこの名を採用したものらしい。彼は Clara Elizabeth La Touche Vicars と結婚して、Langford に住んでいた。ここで John William Strutt が生れた。これがすなわち物理学者のレーリー卿である。
 
 　レーリーの血筋に科学的な遺伝があるとすればそれはこの外戚《がいせき》のヴィカース家から来ているらしい。すなわち外戚祖父とその兄弟は工兵士官であり、また外戚祖母の先祖にも優れた砲工兵の将官が居た。また祖母 Lady FItzgerald は有名なボイル（Robert Boyle）の兄弟の裔《すえ》だそうである。

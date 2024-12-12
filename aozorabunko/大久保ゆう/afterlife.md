@@ -7,6 +7,8 @@ tags: ["914"]
 html_url: https://www.aozora.gr.jp/cards/000879/files/60574_71364.html
 ---
 
+## author: 大久保 ゆう
+
 I do not expect a friend a hundred years later.
 
 　Public taste often fails in all fairness, let alone in today's aesthetic. History has told us that even the Athenian in the Periclean Age or the Florentine in Renaissance were quite far from being the ideal audience. As people in the past and the present have indicated, the future generations will still be the same; unfortunately, I have no doubt that the public after a hundred years would be unable to tell a grain of gold from mounds of sand.

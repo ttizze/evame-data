@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/000678/files/55464_53056.html
 ---
 
+## author: 富永 太郎
+
 うす暗い椽側の端で、
 
 琥珀色した女の瞳が

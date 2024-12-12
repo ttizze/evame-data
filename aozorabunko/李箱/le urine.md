@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53692_69127.html
 ---
 
+## author: 李 箱
+
 焔の様な風が吹いたけれどもけれども氷の様な水晶体はある。憂鬱は DICTIONAIRE の様に純白である。緑色の風景は網膜へ無表情をもたらしそれで何んでも皆灰色の朗らかな調子である。
 
 

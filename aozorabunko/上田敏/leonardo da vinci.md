@@ -7,6 +7,8 @@ tags: ["941"]
 html_url: https://www.aozora.gr.jp/cards/001710/files/55213_49930.html
 ---
 
+## author: 上田 敏
+
 Urbino no wak![※(サーカムフレックスアクセント付きO小文字)](https://www.aozora.gr.jp/cards/001710/files/../../../gaiji/1-09/1-09-74.png)do kosowa edakumi no ichi to tat![※(サーカムフレックスアクセント付きO小文字)](https://www.aozora.gr.jp/cards/001710/files/../../../gaiji/1-09/1-09-74.png)re, Leonardo,
 
 Yo ni suguretaru kimi ga zae ni to wa kudarazi.

@@ -7,6 +7,8 @@ tags: ["K913"]
 html_url: https://www.aozora.gr.jp/cards/000121/files/60573_71366.html
 ---
 
+## author: 新美 南吉
+
 It was a cold winter morning in the forest. A little fox, who lived alone with his mother, walked out of the hole that was their home.
 
 　“Ow!” cried he, holding his eyes and tumbling back to his mother. “Mommy, I’ve got something in my eyes! Get it out, please!”

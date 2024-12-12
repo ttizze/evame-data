@@ -7,6 +7,8 @@ tags: ["911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53722_63536.html
 ---
 
+## author: 李 箱
+
 1931年の風雲を寂しく語つてゐるタンクが早晨《アサ》の大霧に赭く錆びついてゐる。
 
 客桟の![※(「火＋亢」、第4水準2-79-62)](https://www.aozora.gr.jp/cards/001597/files/../../../gaiji/2-79/2-79-62.png)の中。（実験用アルコホルランプが灯の代りをしてゐる）
