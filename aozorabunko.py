@@ -205,8 +205,8 @@ def create_authors_list_page(
 
     # authors.mdを作成
     # slugはそれぞれのauthorごとにauthor_slug_mapから取得してリンクを張る
-    frontmatter = "---\ntitle: 著者一覧\nslug: authors-list\n---\n"
-    lines = [frontmatter, "## 著者一覧\n"]
+    frontmatter = "---\ntitle: 青空文庫著者一覧\nslug: aozorabunko-authors-list\n---\n\n"
+    lines = [frontmatter, "## 青空文庫著者一覧\n"]
     for author in all_authors:
         author_slug = author_slug_map.get(author, "")
         # 著者ページへのリンク: slug利用
@@ -237,8 +237,7 @@ def write_failed_files_list(failed_files: List[str], output_file: str) -> None:
         print("失敗ファイルはありませんでした。空のfailed_files.txtを作成しました。")
 
 
-def main():
-    target_dir = "aozorabunko"
+def main(target_dir: str = "aozorabunko"):
     author_works, failed_files = process_markdown_files(target_dir)
 
     # 著者ページ生成
