@@ -3,7 +3,7 @@ title: “MONICO”
 slug: monicoe7
 id: 002568
 author: 与謝野 寛
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/000320/files/2568_8605.html
 ---
 

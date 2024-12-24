@@ -3,7 +3,7 @@ title: 移轍（Anakoluth）
 slug: yicheanakoluth03
 id: 049946
 author: 関口 存男
-tags: ["845"]
+tags: ["NDC845"]
 html_url: https://www.aozora.gr.jp/cards/001402/files/49946_59489.html
 ---
 

@@ -3,7 +3,7 @@ title: DILEMMA.
 slug: dilemma3a
 id: 053956
 author: 佐藤 緑葉
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/001486/files/53956_65192.html
 ---
 

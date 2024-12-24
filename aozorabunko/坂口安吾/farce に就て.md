@@ -3,7 +3,7 @@ title: FARCE に就て
 slug: farcenijiute1c
 id: 045801
 author: 坂口 安吾
-tags: ["901","914"]
+tags: ["NDC901", "NDC914"]
 html_url: https://www.aozora.gr.jp/cards/001095/files/45801_38837.html
 ---
 

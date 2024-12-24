@@ -3,7 +3,7 @@ title: Liber Studiorum
 slug: liberstudiorum76
 id: 002457
 author: 寺田 寅彦
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000042/files/2457_11125.html
 ---
 

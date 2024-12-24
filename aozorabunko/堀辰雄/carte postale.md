@@ -3,7 +3,7 @@ title: CARTE POSTALE
 slug: cartepostaleab
 id: 047956
 author: 堀 辰雄
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/001030/files/47956_39426.html
 ---
 

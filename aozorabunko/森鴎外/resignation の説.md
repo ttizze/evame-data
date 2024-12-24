@@ -3,7 +3,7 @@ title: Resignation の説
 slug: resignationnoshuo3e
 id: 045272
 author: 森 鴎外
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000129/files/45272_19217.html
 ---
 

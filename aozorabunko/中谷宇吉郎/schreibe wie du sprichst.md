@@ -3,7 +3,7 @@ title: Schreibe wie du sprichst
 slug: schreibewiedusprichstdd
 id: 059570
 author: 中谷 宇吉郎
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/001569/files/59570_73702.html
 ---
 

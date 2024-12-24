@@ -3,7 +3,7 @@ title: NAKIWARAI を読む
 slug: nakiwaraiwodumu43
 id: 048153
 author: 石川 啄木
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/000153/files/48153_47587.html
 ---
 

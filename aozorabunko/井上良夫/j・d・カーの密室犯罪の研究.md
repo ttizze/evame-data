@@ -3,7 +3,7 @@ title: J・D・カーの密室犯罪の研究
 slug: jdkanomishifanzuinoyanjiued
 id: 047766
 author: 井上 良夫
-tags: ["914","930"]
+tags: ["NDC914", "NDC930"]
 html_url: https://www.aozora.gr.jp/cards/001315/files/47766_33426.html
 ---
 

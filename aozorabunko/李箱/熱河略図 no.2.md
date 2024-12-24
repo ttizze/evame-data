@@ -3,7 +3,7 @@ title: 熱河略図 No.2
 slug: reheluetuno2ae
 id: 053722
 author: 李 箱
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53722_63536.html
 ---
 

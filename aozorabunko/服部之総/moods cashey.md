@@ -3,7 +3,7 @@ title: Moods cashey
 slug: moodscashey0e
 id: 050373
 author: 服部 之総
-tags: ["210","818"]
+tags: ["NDC210", "NDC818"]
 html_url: https://www.aozora.gr.jp/cards/001263/files/50373_40161.html
 ---
 

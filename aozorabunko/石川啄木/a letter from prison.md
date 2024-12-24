@@ -3,7 +3,7 @@ title: A LETTER FROM PRISON
 slug: aletterfromprison10
 id: 048164
 author: 石川 啄木
-tags: ["915"]
+tags: ["NDC915"]
 html_url: https://www.aozora.gr.jp/cards/000153/files/48164_47278.html
 ---
 

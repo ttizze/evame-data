@@ -3,7 +3,7 @@ title: LOS CAPRICHOS
 slug: loscaprichoscf
 id: 000094
 author: 芥川 竜之介
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/000879/files/94_15098.html
 ---
 

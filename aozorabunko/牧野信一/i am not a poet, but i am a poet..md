@@ -3,7 +3,7 @@ title: I Am Not A Poet, But I Am A Poet.
 slug: iamnotapoetbutiamapoetdf
 id: 052884
 author: 牧野 信一
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/000183/files/52884_42664.html
 ---
 

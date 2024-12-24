@@ -3,7 +3,7 @@ title: ゆふべみた夢（Etude）
 slug: yuhubemitamengetude7b
 id: 055495
 author: 富永 太郎
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/000678/files/55495_53205.html
 ---
 

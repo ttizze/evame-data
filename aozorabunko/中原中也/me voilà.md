@@ -3,7 +3,7 @@ title: Me Voilà
 slug: mevoila57
 id: 050255
 author: 中原 中也
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000026/files/50255_57407.html
 ---
 

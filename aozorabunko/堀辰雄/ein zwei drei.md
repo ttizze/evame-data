@@ -3,7 +3,7 @@ title: Ein Zwei Drei
 slug: einzweidreie3
 id: 047952
 author: 堀 辰雄
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/001030/files/47952_38457.html
 ---
 

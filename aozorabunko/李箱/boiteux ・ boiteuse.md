@@ -3,7 +3,7 @@ title: BOITEUX ・ BOITEUSE
 slug: boiteuxboiteusefb
 id: 053691
 author: 李 箱
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53691_65748.html
 ---
 

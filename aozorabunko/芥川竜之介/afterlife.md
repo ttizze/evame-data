@@ -3,7 +3,7 @@ title: Afterlife
 slug: afterlifebe
 id: 060574
 author: 芥川 竜之介
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000879/files/60574_71364.html
 ---
 

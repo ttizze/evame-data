@@ -3,7 +3,7 @@ title: ANY WHERE OUT OF THE WORLD
 slug: anywhereoutoftheworld78
 id: 055441
 author: ボードレール シャルル・ピエール
-tags: ["951"]
+tags: ["NDC951"]
 html_url: https://www.aozora.gr.jp/cards/001732/files/55441_50079.html
 ---
 

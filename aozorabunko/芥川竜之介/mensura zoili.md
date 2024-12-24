@@ -3,7 +3,7 @@ title: Mensura Zoili
 slug: mensurazoili1c
 id: 000097
 author: 芥川 竜之介
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/000879/files/97_15251.html
 ---
 
