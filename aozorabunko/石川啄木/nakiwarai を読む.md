@@ -1,6 +1,6 @@
 ---
 title: NAKIWARAI を読む
-slug: nakiwaraiwodumu43
+slug: nakiwaraiwodumu-b1f
 id: 048153
 author: 石川 啄木
 tags: ["911"]

@@ -1,6 +1,6 @@
 ---
 title: NIELS BOHR
-slug: nielsbohrd7
+slug: nielsbohr-dab
 id: 043657
 author: 仁科 芳雄
 tags: ["289","420"]

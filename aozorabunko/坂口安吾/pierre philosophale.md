@@ -1,6 +1,6 @@
 ---
 title: Pierre Philosophale
-slug: pierrephilosophale7e
+slug: pierrephilosoph-320
 id: 045804
 author: 坂口 安吾
 tags: ["913"]

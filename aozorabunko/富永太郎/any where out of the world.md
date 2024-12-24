@@ -1,6 +1,6 @@
 ---
 title: ANY WHERE OUT OF THE WORLD
-slug: anywhereoutoftheworldd7
+slug: anywhereoutofth-20d
 id: 055441
 author: 富永 太郎
 tags: ["951"]

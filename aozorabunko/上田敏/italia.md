@@ -1,6 +1,6 @@
 ---
 title: ITALIA
-slug: italia5d
+slug: italia-03c
 id: 055214
 author: 上田 敏
 tags: ["941"]

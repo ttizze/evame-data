@@ -1,6 +1,6 @@
 ---
 title: Ein Zwei Drei
-slug: einzweidreie3
+slug: einzweidrei-cf8
 id: 047952
 author: 堀 辰雄
 tags: ["914"]

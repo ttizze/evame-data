@@ -1,6 +1,6 @@
 ---
 title: PANTOMIME
-slug: pantomime97
+slug: pantomime-f39
 id: 055464
 author: 富永 太郎
 tags: ["911"]

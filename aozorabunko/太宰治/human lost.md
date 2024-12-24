@@ -1,6 +1,6 @@
 ---
 title: HUMAN LOST
-slug: humanlost0e
+slug: humanlost-858
 id: 000271
 author: 太宰 治
 tags: ["913"]

@@ -1,6 +1,6 @@
 ---
 title: Hasty Pudding
-slug: hastypudding17
+slug: hastypudding-134
 id: 052769
 author: 牧野 信一
 tags: ["914"]

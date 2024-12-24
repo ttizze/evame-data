@@ -1,6 +1,6 @@
 ---
 title: CARTE POSTALE
-slug: cartepostaleab
+slug: cartepostale-3c7
 id: 047956
 author: 堀 辰雄
 tags: ["914"]

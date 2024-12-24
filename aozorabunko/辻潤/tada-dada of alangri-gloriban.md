@@ -1,6 +1,6 @@
 ---
 title: Tada-Dada of Alangri-Gloriban
-slug: tadadadaofalangrigloriban63
+slug: tadadadaofalang-224
 id: 000857
 author: 辻 潤
 tags: ["914"]

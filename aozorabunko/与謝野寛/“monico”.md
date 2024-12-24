@@ -1,6 +1,6 @@
 ---
 title: “MONICO”
-slug: monicoe7
+slug: monico-e4f
 id: 002568
 author: 与謝野 寛
 tags: ["911"]

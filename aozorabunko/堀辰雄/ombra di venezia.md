@@ -1,6 +1,6 @@
 ---
 title: Ombra di Venezia
-slug: ombradivenezia4e
+slug: ombradivenezia-187
 id: 048293
 author: 堀 辰雄
 tags: ["134","914"]
