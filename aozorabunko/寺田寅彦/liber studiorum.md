@@ -1,6 +1,6 @@
 ---
 title: Liber Studiorum
-slug: liberstudiorum76
+slug: liberstudiorum-bf2
 id: 002457
 author: 寺田 寅彦
 tags: ["914"]

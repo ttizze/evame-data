@@ -1,6 +1,6 @@
 ---
 title: J・D・カーの密室犯罪の研究
-slug: jdkanomishifanzuinoyanjiued
+slug: jdkanomishifanz-01a
 id: 047766
 author: 井上 良夫
 tags: ["914","930"]

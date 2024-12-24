@@ -1,6 +1,6 @@
 ---
 title: ITALIA
-slug: italia67
+slug: italia-642
 id: 055214
 author: プラーテン アウグスト
 tags: ["941"]
