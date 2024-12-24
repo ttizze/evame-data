@@ -3,7 +3,7 @@ title: AU RIMBAUD
 slug: aurimbaud60
 id: 055465
 author: 富永 太郎
-tags: ["951"]
+tags: ["NDC951"]
 html_url: https://www.aozora.gr.jp/cards/000678/files/55465_53059.html
 ---
 

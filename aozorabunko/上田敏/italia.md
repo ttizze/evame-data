@@ -3,7 +3,7 @@ title: ITALIA
 slug: italia5d
 id: 055214
 author: 上田 敏
-tags: ["941"]
+tags: ["NDC941"]
 html_url: https://www.aozora.gr.jp/cards/001710/files/55214_49929.html
 ---
 

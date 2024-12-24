@@ -3,7 +3,7 @@ title: Pierre Philosophale
 slug: pierrephilosophale7e
 id: 045804
 author: 坂口 安吾
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/001095/files/45804_34993.html
 ---
 

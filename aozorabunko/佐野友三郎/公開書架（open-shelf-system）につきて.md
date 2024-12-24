@@ -3,7 +3,7 @@ title: 公開書架（Open-shelf-system）につきて
 slug: gongkaishujiaopenshelfsystemnitsukite1c
 id: 046210
 author: 佐野 友三郎
-tags: ["016"]
+tags: ["NDC016"]
 html_url: https://www.aozora.gr.jp/cards/001227/files/46210_29093.html
 ---
 

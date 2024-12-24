@@ -3,7 +3,7 @@ title: Ombra di Venezia
 slug: ombradivenezia4e
 id: 048293
 author: 堀 辰雄
-tags: ["134","914"]
+tags: ["NDC134", "NDC914"]
 html_url: https://www.aozora.gr.jp/cards/001030/files/48293_38463.html
 ---
 

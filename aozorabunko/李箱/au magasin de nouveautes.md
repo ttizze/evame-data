@@ -3,7 +3,7 @@ title: AU MAGASIN DE NOUVEAUTES
 slug: aumagasindenouveautesab
 id: 053717
 author: 李 箱
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/001597/files/53717_63532.html
 ---
 

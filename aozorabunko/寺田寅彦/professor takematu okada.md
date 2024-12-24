@@ -3,7 +3,7 @@ title: PROFESSOR TAKEMATU OKADA
 slug: professortakematuokadac4
 id: 043534
 author: 寺田 寅彦
-tags: ["289","451"]
+tags: ["NDC289", "NDC451"]
 html_url: https://www.aozora.gr.jp/cards/000042/files/43534_24597.html
 ---
 

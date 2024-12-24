@@ -3,7 +3,7 @@ title: The Affair of Two Watches
 slug: theaffairoftwowatchesd6
 id: 058153
 author: 谷崎 潤一郎
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/001383/files/58153_71313.html
 ---
 

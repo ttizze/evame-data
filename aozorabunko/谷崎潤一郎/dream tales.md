@@ -3,7 +3,7 @@ title: Dream Tales
 slug: dreamtalesa9
 id: 060080
 author: 谷崎 潤一郎
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/001383/files/60080_73709.html
 ---
 

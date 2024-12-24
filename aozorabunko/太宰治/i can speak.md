@@ -3,7 +3,7 @@ title: I can speak
 slug: icanspeak46
 id: 001572
 author: 太宰 治
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/000035/files/1572_19910.html
 ---
 

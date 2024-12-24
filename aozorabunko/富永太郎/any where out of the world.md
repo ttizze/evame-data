@@ -3,7 +3,7 @@ title: ANY WHERE OUT OF THE WORLD
 slug: anywhereoutoftheworldd7
 id: 055441
 author: 富永 太郎
-tags: ["951"]
+tags: ["NDC951"]
 html_url: https://www.aozora.gr.jp/cards/001732/files/55441_50079.html
 ---
 

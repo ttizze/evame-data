@@ -3,7 +3,7 @@ title: COLLOQUE MOQUEUR
 slug: colloquemoqueur46
 id: 055463
 author: 富永 太郎
-tags: ["911"]
+tags: ["NDC911"]
 html_url: https://www.aozora.gr.jp/cards/000678/files/55463_53055.html
 ---
 

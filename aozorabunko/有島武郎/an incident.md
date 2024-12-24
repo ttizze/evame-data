@@ -3,7 +3,7 @@ title: An Incident
 slug: anincident55
 id: 004490
 author: 有島 武郎
-tags: ["913"]
+tags: ["NDC913"]
 html_url: https://www.aozora.gr.jp/cards/000025/files/4490_14852.html
 ---
 

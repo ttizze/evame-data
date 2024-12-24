@@ -3,7 +3,7 @@ title: 宿命の CANDIDE
 slug: sumingnocandide18
 id: 045812
 author: 坂口 安吾
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/001095/files/45812_34991.html
 ---
 

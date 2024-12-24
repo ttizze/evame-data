@@ -3,7 +3,7 @@ title: Sketches for details Shima
 slug: sketchesfordetailsshima3d
 id: 004222
 author: 宮本 百合子
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000311/files/4222_14801.html
 ---
 

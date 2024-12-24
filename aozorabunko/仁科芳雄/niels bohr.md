@@ -3,7 +3,7 @@ title: NIELS BOHR
 slug: nielsbohrd7
 id: 043657
 author: 仁科 芳雄
-tags: ["289","420"]
+tags: ["NDC289", "NDC420"]
 html_url: https://www.aozora.gr.jp/cards/001163/files/43657_31779.html
 ---
 

@@ -3,7 +3,7 @@ title: J. K. Huys Mans の小説
 slug: jkhuysmansnoxiaoshuo62
 id: 048804
 author: 田山 花袋
-tags: ["950"]
+tags: ["NDC950"]
 html_url: https://www.aozora.gr.jp/cards/000214/files/48804_64610.html
 ---
 

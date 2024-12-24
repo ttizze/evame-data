@@ -3,7 +3,7 @@ title: Tada-Dada of Alangri-Gloriban
 slug: tadadadaofalangrigloriban63
 id: 000857
 author: 辻 潤
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000159/files/857_34611.html
 ---
 

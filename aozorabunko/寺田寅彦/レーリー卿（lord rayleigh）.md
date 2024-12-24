@@ -3,7 +3,7 @@ title: レーリー卿（Lord Rayleigh）
 slug: reriqinglordrayleigh62
 id: 043083
 author: 寺田 寅彦
-tags: ["289"]
+tags: ["NDC289"]
 html_url: https://www.aozora.gr.jp/cards/000042/files/43083_23775.html
 ---
 

@@ -3,7 +3,7 @@ title: ITALIA
 slug: italia67
 id: 055214
 author: プラーテン アウグスト
-tags: ["941"]
+tags: ["NDC941"]
 html_url: https://www.aozora.gr.jp/cards/001710/files/55214_49929.html
 ---
 

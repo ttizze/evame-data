@@ -3,7 +3,7 @@ title: Hasty Pudding
 slug: hastypudding17
 id: 052769
 author: 牧野 信一
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000183/files/52769_44453.html
 ---
 

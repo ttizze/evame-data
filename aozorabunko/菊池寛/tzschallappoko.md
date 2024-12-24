@@ -3,7 +3,7 @@ title: TZSCHALLAPPOKO
 slug: tzschallappoko47
 id: 059353
 author: 菊池 寛
-tags: ["914"]
+tags: ["NDC914"]
 html_url: https://www.aozora.gr.jp/cards/000083/files/59353_72330.html
 ---
 

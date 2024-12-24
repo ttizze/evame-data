@@ -3,7 +3,7 @@ title: LEONARDO DA VINCI
 slug: leonardodavinci98
 id: 055213
 author: 上田 敏
-tags: ["941"]
+tags: ["NDC941"]
 html_url: https://www.aozora.gr.jp/cards/001710/files/55213_49930.html
 ---
 
