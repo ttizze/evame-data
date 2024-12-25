@@ -1,8 +1,17 @@
 import os
 import re
+
+
 def is_number(s):
-    """文字列が数字かどうかをチェック"""
-    return s.isdigit()
+    """文字列が数字かK+数字かどうかをチェック"""
+    if s.isdigit():
+        return True
+    # Kで始まり、残りが数字の場合もTrue
+    if s.startswith('K') and s[1:].isdigit():
+        return True
+    return False
+
+
 def process_frontmatter(content):
     """Frontmatterを処理してタグを更新"""
     # YAMLフロントマターを探す
@@ -58,6 +67,8 @@ def process_markdown_files(directory):
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(new_content)
                     print(f"更新しました: {file_path}")
+
+
 if __name__ == "__main__":
     directory = "./aozorabunko"
     process_markdown_files(directory)
