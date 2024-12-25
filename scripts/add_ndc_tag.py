@@ -51,6 +51,8 @@ def process_frontmatter(content):
         # 元のコンテンツを更新
         return f"---\n{new_frontmatter}\n---{content[match.end():]}"
     return content
+
+
 def process_markdown_files(directory):
     """指定ディレクトリ以下のMarkdownファイルを処理"""
     for root, _, files in os.walk(directory):
