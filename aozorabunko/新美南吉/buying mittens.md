@@ -3,7 +3,7 @@ title: Buying Mittens
 slug: buyingmittens13
 id: 060573
 author: 新美 南吉
-tags: ["K913"]
+tags: ["NDCK913"]
 html_url: https://www.aozora.gr.jp/cards/000121/files/60573_71366.html
 ---
 
