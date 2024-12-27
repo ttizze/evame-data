@@ -1,6 +1,6 @@
 ---
 title: 移轍（Anakoluth）
-slug: yicheanakoluth03
+slug: yicheanakoluth-ea2
 id: 049946
 author: 関口 存男
 tags: ["NDC845"]

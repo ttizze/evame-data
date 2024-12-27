@@ -1,6 +1,6 @@
 ---
 title: 宿命の CANDIDE
-slug: sumingnocandide18
+slug: sumingnocandide-145
 id: 045812
 author: 坂口 安吾
 tags: ["NDC914"]

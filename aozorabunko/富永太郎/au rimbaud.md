@@ -1,6 +1,6 @@
 ---
 title: AU RIMBAUD
-slug: aurimbaud60
+slug: aurimbaud-2f8
 id: 055465
 author: 富永 太郎
 tags: ["NDC951"]

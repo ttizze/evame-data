@@ -1,6 +1,6 @@
 ---
 title: The Affair of Two Watches
-slug: theaffairoftwowatchesd6
+slug: theaffairoftwow-a53
 id: 058153
 author: 谷崎 潤一郎
 tags: ["NDC913"]

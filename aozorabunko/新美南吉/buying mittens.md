@@ -1,6 +1,6 @@
 ---
 title: Buying Mittens
-slug: buyingmittens13
+slug: buyingmittens-f7d
 id: 060573
 author: 新美 南吉
 tags: ["NDCK913"]

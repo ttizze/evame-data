@@ -1,6 +1,6 @@
 ---
 title: Me Voilà
-slug: mevoila57
+slug: mevoila-e5e
 id: 050255
 author: 中原 中也
 tags: ["NDC914"]

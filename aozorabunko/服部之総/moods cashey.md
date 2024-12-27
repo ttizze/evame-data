@@ -1,6 +1,6 @@
 ---
 title: Moods cashey
-slug: moodscashey0e
+slug: moodscashey-81f
 id: 050373
 author: 服部 之総
 tags: ["NDC210", "NDC818"]

@@ -1,6 +1,6 @@
 ---
 title: YAMA
-slug: yamabf
+slug: yamaaa-276
 id: 054811
 author: 竹内 浩三
 tags: ["NDC911"]

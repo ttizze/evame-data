@@ -1,6 +1,6 @@
 ---
 title: I can speak
-slug: icanspeak46
+slug: icanspeak-62e
 id: 001572
 author: 太宰 治
 tags: ["NDC913"]

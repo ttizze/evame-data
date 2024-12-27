@@ -1,6 +1,6 @@
 ---
 title: ANY WHERE OUT OF THE WORLD
-slug: anywhereoutoftheworld78
+slug: anywhereoutofth-2eb
 id: 055441
 author: ボードレール シャルル・ピエール
 tags: ["NDC951"]

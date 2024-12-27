@@ -1,6 +1,6 @@
 ---
 title: J. K. Huys Mans の小説
-slug: jkhuysmansnoxiaoshuo35
+slug: jkhuysmansnoxia-0aa
 id: 048804
 author: 田山 録弥
 tags: ["NDC950"]

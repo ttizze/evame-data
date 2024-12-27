@@ -1,6 +1,6 @@
 ---
 title: Resignation の説
-slug: resignationnoshuo3e
+slug: resignationnosh-ee5
 id: 045272
 author: 森 鴎外
 tags: ["NDC914"]

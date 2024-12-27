@@ -1,6 +1,6 @@
 ---
 title: TZSCHALLAPPOKO
-slug: tzschallappoko47
+slug: tzschallappoko-c68
 id: 059353
 author: 菊池 寛
 tags: ["NDC914"]

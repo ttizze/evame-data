@@ -1,6 +1,6 @@
 ---
 title: Mensura Zoili
-slug: mensurazoili1c
+slug: mensurazoili-33b
 id: 000097
 author: 芥川 竜之介
 tags: ["NDC913"]

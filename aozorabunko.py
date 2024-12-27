@@ -6,16 +6,28 @@ import yaml
 import uuid
 from typing import Optional, Dict, List, Tuple, Union
 
+SLUG_PATTERN = r'^[a-zA-Z0-9]{6,15}-[a-zA-Z0-9]{3}$'
 
 def generate_unique_slug(title: str) -> str:
     """
     タイトルからslugを生成する。
-    英数字以外を除去したうえで、ランダムな2文字のサフィックスを付与する。
+    英数字以外を除去したうえで、6-15文字に調整し、
+    ランダムな3文字のサフィックスをハイフン付きで付与する。
     """
     temp_slug = slugify(unidecode(title))
     base_slug = re.sub(r"[^a-zA-Z0-9]", "", temp_slug)
-    random_suffix = uuid.uuid4().hex[:2]
-    unique_slug = f"{base_slug}{random_suffix}"
+
+    # 6文字以上15文字以下に調整
+    if len(base_slug) < 6:
+        # 6文字未満の場合は、最後の文字を繰り返して6文字にする
+        last_char = base_slug[-1] if base_slug else 'x'
+        base_slug = base_slug + last_char * (6 - len(base_slug))
+    elif len(base_slug) > 15:
+        # 15文字を超える場合は切り詰める
+        base_slug = base_slug[:15]
+
+    random_suffix = uuid.uuid4().hex[:3]  # 3文字のサフィックス
+    unique_slug = f"{base_slug}-{random_suffix}"  # ハイフン追加
     return unique_slug
 
 
@@ -38,15 +50,26 @@ def extract_frontmatter(content: str) -> Optional[Tuple[str, str, str, str]]:
 
 def insert_slug_line(front_content: str, slug: str) -> str:
     """
-    既存のfrontmatter行群（front_content）にslug行を追加する。
-    title行直後にslug行を挿入する。
+    既存のfrontmatter行群（front_content）のslug行を更新する。
+    既存のslugがある場合は置換し、ない場合はtitle行直後に挿入する。
+    slugは必ず1つだけになるように制御する。
     """
     lines = front_content.strip("\n").split("\n")
     new_lines = []
+    slug_added = False
+
     for line in lines:
-        new_lines.append(line)
-        if re.match(r"^\s*title\s*:", line):
-            new_lines.append(f"slug: {slug}")
+        if re.match(r"^\s*slug\s*:", line):
+            if not slug_added:  # 最初のslug行のみ更新
+                new_lines.append(f"slug: {slug}")
+                slug_added = True
+            # 2つ目以降のslug行は無視（追加しない）
+        else:
+            new_lines.append(line)
+            # title行の直後かつまだslugが追加されていない場合
+            if not slug_added and re.match(r"^\s*title\s*:", line):
+                new_lines.append(f"slug: {slug}")
+                slug_added = True
 
     return "\n".join(new_lines) + "\n"
 
@@ -74,33 +97,29 @@ def update_frontmatter(file_path: str) -> Union[Dict[str, str], str]:
         print(f"author not found,{file_path}")
         return file_path
 
-    author_name = str(metadata["author"]).strip().strip("'").strip('"')
+    title = str(metadata["title"]).strip().strip('　').strip("'").strip('"').strip()
+    # 既存のslugをチェック
+    existing_slug = metadata.get("slug", "")
 
-    # もし既にbody内に"## author:"があれば挿入しない
-    if "## author:" not in body:
-        author_line = f"## author: {author_name}\n\n"
-    else:
-        author_line = ""
+    # slugが存在しないか、無効な形式の場合のみ新しいslugを生成
+    if not existing_slug or not re.match(SLUG_PATTERN, existing_slug):
+        author_name = str(metadata["author"]).strip().strip("'").strip('"')
+        new_slug = generate_unique_slug(title)
+        new_front_content = insert_slug_line(front_content, new_slug)
 
-    title = str(metadata["title"]).strip().strip("'").strip('"')
+        if "## author:" not in body:
+            author_line = f"## author: {author_name}\n\n"
+        else:
+            author_line = ""
 
-    if "slug" in metadata:
-        # slugありの場合
-        new_content = front_start + front_content + front_end + author_line + body
-        final_slug = metadata["slug"]
-    else:
-        # slugなしの場合
-        slug = generate_unique_slug(title)
-        new_front_content = insert_slug_line(front_content, slug)
         new_content = front_start + new_front_content + front_end + author_line + body
-        final_slug = slug
 
-    if new_content != content:
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(new_content)
 
-    return {"title": title, "slug": final_slug}
+        return {"title": title, "slug": new_slug}
 
+    return {"title": title, "slug": existing_slug}
 
 def process_markdown_files(
     target_dir: str,

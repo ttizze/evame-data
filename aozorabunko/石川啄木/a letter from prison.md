@@ -1,6 +1,6 @@
 ---
 title: A LETTER FROM PRISON
-slug: aletterfromprison10
+slug: aletterfrompris-417
 id: 048164
 author: 石川 啄木
 tags: ["NDC915"]

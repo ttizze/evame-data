@@ -1,6 +1,6 @@
 ---
 title: Afterlife
-slug: afterlifeb4
+slug: afterlife-9c9
 id: 060574
 author: 大久保 ゆう
 tags: ["NDC914"]

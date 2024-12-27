@@ -1,6 +1,6 @@
 ---
 title: Rosellinia necatrix (R. Hart.) Berlese の子嚢殻の裂開性について
-slug: rosellinianecatrixrhartberlesenozinangquenoliekaixingnitsuited1
+slug: rosellinianecat-0cf
 id: 059606
 author: 竹本 周平
 tags: ["NDC474"]

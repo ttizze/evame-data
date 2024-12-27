@@ -1,6 +1,6 @@
 ---
 title: An Incident
-slug: anincident55
+slug: anincident-f80
 id: 004490
 author: 有島 武郎
 tags: ["NDC913"]

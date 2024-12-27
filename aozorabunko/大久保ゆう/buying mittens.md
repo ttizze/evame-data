@@ -1,6 +1,6 @@
 ---
 title: Buying Mittens
-slug: buyingmittensb7
+slug: buyingmittens-b0f
 id: 060573
 author: 大久保 ゆう
 tags: ["NDCK913"]

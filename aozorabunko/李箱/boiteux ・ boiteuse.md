@@ -1,6 +1,6 @@
 ---
 title: BOITEUX ・ BOITEUSE
-slug: boiteuxboiteusefb
+slug: boiteuxboiteuse-cc9
 id: 053691
 author: 李 箱
 tags: ["NDC911"]
